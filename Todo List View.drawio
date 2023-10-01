@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2023-09-30T18:45:35.135Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.43" etag="SmcfZFuCHI6LoFvThfpb" version="21.6.8" type="device">
+  <diagram name="Page-1" id="VdfG3pC5ekn3a7O9HBAY">
+    <mxGraphModel dx="1106" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FmpjaYBopKSutwwsRj4I-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="240" width="320" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FmpjaYBopKSutwwsRj4I-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="140" width="415" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="FmpjaYBopKSutwwsRj4I-3" value="Nav bar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="150" width="410" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FmpjaYBopKSutwwsRj4I-7" value="&lt;h1&gt;If you need me, call me&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="107.5" y="180" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FmpjaYBopKSutwwsRj4I-8" value="&amp;lt;Form&amp;gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="240" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="FmpjaYBopKSutwwsRj4I-9" value="Name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="270" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FmpjaYBopKSutwwsRj4I-10" value="Add" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="350" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FmpjaYBopKSutwwsRj4I-12" value="List Item" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="430" width="90" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="FmpjaYBopKSutwwsRj4I-16" value="Delete" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="300" y="430" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FmpjaYBopKSutwwsRj4I-20" value="Email" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="290" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FmpjaYBopKSutwwsRj4I-21" value="Comment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="310" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FmpjaYBopKSutwwsRj4I-22" value="Contact List&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="395" width="210" height="175" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

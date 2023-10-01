@@ -1,0 +1,5 @@
+I am a programmer who needs to keep track of steps to be completed on a project. I can create a list of stpes and mark each step complete. I can create contacts entries for my clients, professional ccolleagues, and collaborators.
+
+I am a homemaker who needs to track my home maintenance tasks. I create a list of tasks and mark them complete. I keep track of tradesmen contacts with the contact entry page
+
+I am a student who needs to track my class assignments. I use the application to enter each assignment and mark when complete.  I use the contact entry to keep track of professor's and classmates's contact information.

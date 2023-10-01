@@ -1,3 +1,17 @@
+
+Jeremy Brashear
+
+This is a REACT project to create a Todo list app with a contact list page
+
+Functionality: 
+Todo List - Task List Enter task in field, then press Add / Task appears in List Press check to mark complete Press X to remove Filter Press All to view all tasks in task list (Completed & Incomplete) Press Completed to view all completed task in task list Press Incomplete to view all incomplete tasks in task list 
+
+Contact - Contact Entry Enter First Name, Last Name, Email, and Comment, then press Add / Contact appears in list Press check to mark complete Press X to remove Technologies used: HTML / CSS / JavaScript / Git / GitHub / React
+
+Future Improvements: Save a list/contact once app is closed Email/AirDrop a list/contact Save a list to a calendar layout
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

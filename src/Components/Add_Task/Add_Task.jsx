@@ -1,11 +1,21 @@
 import React from 'react';
 import '../Add_Task/Add_Task.css'
 
-export default function AddTask() {
-  return (
+const AddTask = () => {
+  const handleSubmit = (e) => {
+        e.preventDefault();
+        
+        let NewTaskField = document.querySelector('[name = Task]');
+        let NewTaskValue = NewTaskField.value;
+    
+        NewTaskValue = '';
+        
+       
+  }
+    return (
     <div className = "Task-form">
      <h2>Add A New Task</h2>
-      <form action ="#" method='GET'>
+      <form action ="#" method='GET' onSubmit = {handleSubmit}>
         <div class="form-row">
            <label>
             <input type="text" name="Task" className = "Task-field"placeholder="...add new task"></input>
@@ -16,3 +26,4 @@ export default function AddTask() {
   </div>
   )
 }
+export default AddTask;

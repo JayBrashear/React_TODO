@@ -1,23 +1,27 @@
 import { useState } from 'react';
 import './List_Item.css';
 
-export default function ListItem({taskStatus,TaskComplete}) {
-  const[task, setTaskComplete ] = useState(false);
+export default function ListItem({taskStatus,taskItem, deleteTaskItem } ) {
+  const[isComplete, setTaskComplete ] = useState(false);
 
-  const itemStatus = 
-        TaskComplete ? 
-        <div className = "jsx-list-item-incomplete"><ul> <li>{task}</li></ul></div> :
-        <div className = "jsx-list-item-complete"><ul> <li>{task}</li></ul></div>;
+  const itemContent = 
+        isComplete ?
+       <p className = "Task-Incomplete">{taskItem}</p> :
+       <p className = "Task-Complete">{taskItem}</p>;
+
   const handleStatus = (/* e*/) => {
-    setTaskComplete(!TaskComplete);
-  }
+    setTaskComplete(!isComplete);
+  };
   
-  /* const handleItem = ()*/ 
-        return (
-    <div className = "jsx-list-item">
-        {itemStatus}
-        <input type="button" value="Done" className = "btn-Done" onClick = {handleStatus}/>
-        <input type="button" value="Remove" className = "btn-Remove" /* onClick = {handleItem}*/ />
-    </div>
+   const handleItemDelete = (e) =>
+        e.preventDefault();
+        deleteTaskItem(taskItem);
+
+    return (
+      <div className = "jsx-list-item">
+            {itemContent}
+            <input type="button" value="Done" className = "btn-Done" onClick = {handleStatus}/>
+            <input type="button" value="Remove" className = "btn-Remove"  onClick = {handleItemDelete} />
+    </div>    
   )
 }

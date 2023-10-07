@@ -9,9 +9,12 @@
     border: 5px;
     border-color: lightsalmon;
     max-width: 500px;
-    list-style-type: none;    
+    list-style-type: none; 
+    color: aquamarine;
+    margin: 5px;
+    padding: 5px;
 }
-
+/*
 .jsx-list-item-incomplete {
     background-color:seagreen ;
     border-radius: 20px;
@@ -33,7 +36,7 @@
     max-width: 300px;
     text-decoration: line-through;
 }
-
+*/
 .btn-Done{
     background-color: darkgreen;
     border-radius: 20px;

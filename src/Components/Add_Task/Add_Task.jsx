@@ -5,7 +5,7 @@ const AddTask = ({ addNewTaskItem }) => {
   const handleSubmit = (e) => {
         e.preventDefault();
         
-        let NewTaskField = document.querySelector('[name = Task]');
+        let NewTaskField = document.querySelector('[name = taskItem]');
         let NewTaskValue = NewTaskField.value;
     
         NewTaskField.value = '';
@@ -20,7 +20,7 @@ const AddTask = ({ addNewTaskItem }) => {
            <label>
             <input
               type="text" 
-              name="Task"   
+              name="taskItem"   
               className = "Task-field"
               placeholder="...add new task"></input>
             <button className="btn btn-primary" >Add Task</button>

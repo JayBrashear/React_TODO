@@ -1,12 +1,9 @@
 import React from 'react'
 import ListItem from '../List_Item/List_Item';
 
-export default function TaskList({ tasks, deleteTaskItem  }) {
+export default function TaskList({ tasks  }) {
     const taskList = tasks.map( taskItems => 
-        <ListItem 
-          tasks ={tasks.taskItems}
-          taskStatus = {taskItems.taskStatus}
-          deleteTaskItem = {deleteTaskItem} />
+        <ListItem />
         );
   
     return (
@@ -15,4 +12,4 @@ export default function TaskList({ tasks, deleteTaskItem  }) {
         {taskList}
       </section>
   )
-}
+};

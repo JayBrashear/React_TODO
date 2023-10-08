@@ -6,7 +6,7 @@ import ListItem from './Components/List_Item/List_Item';
 
 function App() {
   const [taskList,setTasks] = useState([
-    {taskItem:"Pick Up Dry Cleaning"},
+    {taskItem:"Get the cat"},
   ]);
   const addNewTaskItem = (task) => {
     const newTaskItem = [...taskList,{task}];
@@ -16,9 +16,17 @@ function App() {
     const updatedTaskList = taskList.filter(task => task.task !== task);
     setTasks(updatedTaskList);
   }
-  */
+*/
   
   }
+ 
+  const testList = taskList.map( task =>
+  <ListItem 
+    taskItem = {task.taskItem} 
+    key = {`${task.taskItem}`}/>
+  );
+
+ 
   return (
     <div className="App">
       <header className="App-header">
@@ -26,9 +34,7 @@ function App() {
       </header>
       <main className = "jsx-task-form">
         <AddTask addNewTaskItem = {addNewTaskItem}  />
-        <TaskList tasks = {taskList}  />
-        <ListItem taskItem = "Pick Up Dry Cleaning"/>
-        <ListItem taskItem = "Bring in Cat"/>
+        {testList}                
       </main>
     </div>
   );

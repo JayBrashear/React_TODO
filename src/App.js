@@ -7,18 +7,17 @@ import TaskList from './Components/Task_List/Task_List.jsx';
 function App() {
   const [taskList,setTasks] = useState([
   ]);
+  
   const addNewTaskItem = (task) => {
     const newTaskItem = [...taskList,{taskItem: task}];
     setTasks(newTaskItem);
-/*
-  const deleteTaskItem = (task) => {
-    const updatedTaskList = taskList.filter(task => task.task !== task);
+  }
+  const deleteTask = (taskItem) => {
+    const updatedTaskList = taskList.filter(task => 
+          task.taskItem !== taskItem);
     setTasks(updatedTaskList);
   }
-*/
-  
-  }
-  
+    
   return (
     <div className="App">
       <header className="App-header">
@@ -26,7 +25,7 @@ function App() {
       </header>
       <main className = "jsx-task-form">
         <AddTask addNewTaskItem = {addNewTaskItem}  />
-        <TaskList tasks = {taskList} /> 
+        <TaskList tasks = {taskList} deleteTask = {deleteTask}/> 
       </main>
     </div>
   );

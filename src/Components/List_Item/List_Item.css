@@ -14,9 +14,10 @@
     color: aquamarine;
     margin: 5px;
     padding: 5px;
+    justify-content: right;
 }
-/*
-.jsx-list-item-incomplete {
+
+.TaskItem-incomplete {
     background-color:seagreen ;
     border-radius: 20px;
     margin: 10px;
@@ -27,7 +28,7 @@
     text-decoration: none;   
 }
 
-.jsx-list-item-complete {
+.TaskItem-complete {
     background-color:slategrey;
     border-radius: 20px;
     margin: 10px;
@@ -37,7 +38,7 @@
     max-width: 300px;
     text-decoration: line-through;
 }
-*/
+
 .btn-Done{
     background-color: darkgreen;
     border-radius: 20px;

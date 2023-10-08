@@ -5,8 +5,8 @@ const AddTask = ({ addNewTaskItem }) => {
   const handleSubmit = (e) => {
         e.preventDefault();
         
-        let NewTaskField = document.querySelector('[name = taskItem]');
-        let NewTaskValue = NewTaskField.value;
+        const NewTaskField = document.querySelector('[name = taskItem]');
+        const NewTaskValue = NewTaskField.value;
     
         NewTaskField.value = '';
               

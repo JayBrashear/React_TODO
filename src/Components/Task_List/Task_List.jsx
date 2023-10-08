@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './Task_list.css';
 import ListItem from '../List_Item/List_Item';
 
 export default function TaskList({ tasks  }) {

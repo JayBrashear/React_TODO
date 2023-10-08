@@ -1,7 +1,9 @@
-.jsx-list-item-container{
+.jsx-list-container{
     justify-content: center;
     align-items: center;
     list-style-type: none;
+    border: 5px;
+    border-color: saddlebrown;
     
 }
 .jsx-list-item {

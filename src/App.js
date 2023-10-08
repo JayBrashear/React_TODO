@@ -17,7 +17,13 @@ function App() {
           task.taskItem !== taskItem);
     setTasks(updatedTaskList);
   }
-    
+  /*
+  const filterTask = (taskItem) => {
+    const filteredTaskList = taskList.filter(task => 
+          task.taskItem === );
+    setTasks(filteredTaskList);
+  } 
+  */
   return (
     <div className="App">
       <header className="App-header">
@@ -25,7 +31,7 @@ function App() {
       </header>
       <main className = "jsx-task-form">
         <AddTask addNewTaskItem = {addNewTaskItem}  />
-        <TaskList tasks = {taskList} deleteTask = {deleteTask}/> 
+        <TaskList tasks = {taskList} deleteTask = {deleteTask} filterTask = {filterTask}/> 
       </main>
     </div>
   );

@@ -1,5 +1,7 @@
 import './App.css';
 import React,{ useState } from 'react';
+import {HashRouter,Link, Route} from 'react-router-dom';
+import Contact from './contact';
 import AddTask from './Components/Add_Task/Add_Task.jsx';
 import TaskList from './Components/Task_List/Task_List.jsx';
 
@@ -20,10 +22,14 @@ function App() {
  
    return (
     <div className="App">
-      <nav className="nav justify-content-center">
-        <a className="nav-link todo" href="#">To Do List</a>
-        <a className="nav-link contact" href="#">Contact List</a>
-      </nav>
+      <HashRouter>
+        <ul>
+            <li><Link to='/App'>To Do List</Link></li>
+            <li><Link to='/contact'>Contact List</Link></li>
+        </ul>
+        <Route exact path ="/App" compontent ={App} />
+        <Route exact path ="/Contact" compontent ={Contact} />
+      </HashRouter>
       <header className="App-header">
         <h1>ToDo or Not ToDo</h1>
       </header>

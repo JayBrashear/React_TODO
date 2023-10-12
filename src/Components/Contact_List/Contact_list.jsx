@@ -1,5 +1,5 @@
 import React from 'react';
-import './Contact_list.css';
+import './Contact_List.css';
 import ContactItem from '../Contact_Item/Contact_Item.jsx';
 
 export default function ContactList({ contacts, deleteContact }) {

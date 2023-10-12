@@ -1,7 +1,7 @@
 import './Contact.css';
 import React,{ useState } from 'react';
-import AddContact from './Add_Contact/Add_Contact.jsx';
-import ContactList from '';
+import AddContact from './Components/Add_Contact/Add_Contact.jsx';
+import ContactList from './Components/Contact_List/Contact_list.jsx';
 
 
 function Contact() {
@@ -20,10 +20,6 @@ function Contact() {
  
    return (
     <div className="ContactList">
-      <nav className="nav justify-content-center">
-        <a className="nav-link todo" href="#">To Do List</a>
-        <a className="nav-link contact" href="#">Contact List</a>
-      </nav>
       <header className="Contact-header">
         <h1>Contact List</h1>
       </header>

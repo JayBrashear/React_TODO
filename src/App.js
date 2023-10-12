@@ -17,21 +17,19 @@ function App() {
           task.taskItem !== taskItem);
     setTasks(updatedTaskList);
   }
-  /*
-  const filterTask = (taskItem) => {
-    const filteredTaskList = taskList.filter(task => 
-          task.taskItem === );
-    setTasks(filteredTaskList);
-  } 
-  */
-  return (
+ 
+   return (
     <div className="App">
+      <nav className="nav justify-content-center">
+        <a className="nav-link todo" href="#">To Do List</a>
+        <a className="nav-link contact" href="#">Contact List</a>
+      </nav>
       <header className="App-header">
         <h1>ToDo or Not ToDo</h1>
       </header>
       <main className = "jsx-task-form">
         <AddTask addNewTaskItem = {addNewTaskItem}  />
-        <TaskList tasks = {taskList} deleteTask = {deleteTask} filterTask = {filterTask}/> 
+        <TaskList tasks = {taskList} deleteTask = {deleteTask} /> 
       </main>
     </div>
   );

@@ -1,16 +1,26 @@
-
-.jsx-list-item-container{
-    justify-content: right;
+.jsx-list-container{
+    justify-content: center;
     align-items: center;
     list-style-type: none;
     border: 5px;
     border-color: saddlebrown;
+    
 }
-.jsx-list-item-container li{
-    list-style-type: none;
+.jsx-list-item {
+    background-color: saddlebrown;
+    border-radius: 20px;
+    border: 5px;
+    border-color: lightsalmon;
+    max-width: 500px;
+    list-style-type: none; 
+    color: aquamarine;
+    margin: 5px;
+    padding: 5px;
+    justify-content: right;
 }
-.btn{
-    background-color: slateblue;
+
+.btn-Remove{
+    background-color: darkred;
     border-radius: 20px;
     margin: 5px;
     padding: 5px;
